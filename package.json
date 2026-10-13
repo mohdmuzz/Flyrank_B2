@@ -1,0 +1,22 @@
+{
+  "name": "flyrank-crud-api-sqlite",
+  "version": "2.0.0",
+  "description": "FlyRank BE-02 Task API using SQLite persistence",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "crud",
+    "swagger",
+    "flyrank"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
